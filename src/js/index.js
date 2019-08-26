@@ -13,7 +13,8 @@ var noun = ["cthulu", "dog", "pegasus", "fountain"];
 pronoun.forEach((car, bus) => {
   adj.forEach((dog, cat) => {
     noun.forEach((shoe, boot) => {
-      console.log(car + "" + dog + "" + shoe + ".com");
+      document.querySelector("#generator").innerHTML +=
+        "<li>" + "www." + car + dog + shoe + ".com" + "</li>";
     });
   });
 });
